@@ -20,6 +20,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <distributionManagement>
+    <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://3.110.183.195:8081/repository/anu//url>
+    </snapshotRepository>
+    <repository>
+      <id>nexus-releases</id>
+      <url>http://3.110.183.195:8081/repository/anu1/</url>
+    </repository>
+  </distributionManagement>
+  
   <profiles>
 <profile>
 <id>sonar</id>
